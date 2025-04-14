@@ -1,0 +1,5 @@
+2025-04-14 08:04:58,705 [INFO] Starting scraper
+2025-04-14 08:04:58,902 [INFO] HTML saved to response.html
+2025-04-14 08:04:59,350 [WARNING] Failed to fetch pantry contents: 400
+2025-04-14 08:04:59,351 [INFO] 0 movies saved to ott_releases.json
+2025-04-14 08:04:59,471 [WARNING] PantryDB update failed: 400
