@@ -11,3 +11,26 @@
 2025-04-14 08:44:54,614 [INFO] HTML saved to response.html
 2025-04-14 08:44:55,271 [INFO] 1 movies saved to ott_releases.json
 2025-04-14 08:44:55,509 [INFO] 'filmibeat' basket updated with 1 movies
+2025-04-14 08:53:23,933 [INFO] Starting scraper
+2025-04-14 08:53:24,826 [INFO] Parsed movie #1: The Last of Us Season 2
+2025-04-14 08:53:24,827 [INFO] Parsed movie #2: Dear Satyajit
+2025-04-14 08:53:24,828 [INFO] Parsed movie #3: Doctor Who Season 2
+2025-04-14 08:53:24,829 [INFO] Parsed movie #4: Jane the Virgin
+2025-04-14 08:53:24,830 [INFO] Parsed movie #5: Koli Taal
+2025-04-14 08:53:24,831 [INFO] Parsed movie #6: Kotabommali PS
+2025-04-14 08:53:24,832 [INFO] Parsed movie #7: One Last Time
+2025-04-14 08:53:24,833 [INFO] Parsed movie #8: Sinjar
+2025-04-14 08:53:24,834 [INFO] Parsed movie #9: Bad Boyz
+2025-04-14 08:53:24,835 [INFO] Parsed movie #10: Before 30
+2025-04-14 08:53:24,835 [INFO] Parsed movie #11: Chabak - Night of Murder and Romance
+2025-04-14 08:53:24,836 [INFO] Parsed movie #12: Chasing the Wind
+2025-04-14 08:53:24,837 [INFO] Parsed movie #13: Chhaava
+2025-04-14 08:53:24,838 [INFO] Parsed movie #14: Chhorii 2
+2025-04-14 08:53:24,839 [INFO] Parsed movie #15: Crazxy
+2025-04-14 08:53:24,840 [INFO] Parsed movie #16: Daveed
+2025-04-14 08:53:24,841 [INFO] Parsed movie #17: Emmanuelle
+2025-04-14 08:53:24,842 [INFO] Parsed movie #18: Hacks Season 4
+2025-04-14 08:53:24,843 [INFO] Parsed movie #19: Hesitation Wound
+2025-04-14 08:53:24,844 [INFO] Parsed movie #20: KA
+2025-04-14 08:53:25,189 [INFO] 19 movies written to ott_releases.json
+2025-04-14 08:53:25,313 [INFO] filmibeat basket updated with 19 movies

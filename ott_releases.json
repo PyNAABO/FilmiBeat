@@ -1,12 +1,156 @@
 {
     "Movies": [
         {
+            "title": "The Last of Us Season 2",
+            "type": "TV Show",
+            "language_genre": "en | Drama",
+            "release_date": "14 April 2025",
+            "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/The-Last-of-Us-Season-2-20250414114440-5403.jpg"
+        },
+        {
             "title": "Dear Satyajit",
             "type": "Movie",
             "language_genre": "bn | Drama",
             "release_date": "12 April 2025",
             "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Dear-Satyajit-20250414114518-5388.jpg"
+        },
+        {
+            "title": "Jane the Virgin",
+            "type": "TV Show",
+            "language_genre": "en | Comedy",
+            "release_date": "12 April 2025",
+            "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Jane-the-Virgin-20250414114817-5392.jpg"
+        },
+        {
+            "title": "Koli Taal",
+            "type": "Movie",
+            "language_genre": "Kannada | Drama",
+            "release_date": "12 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/kolitaal-20240613171154-22994.jpg"
+        },
+        {
+            "title": "Kotabommali PS",
+            "type": "Movie",
+            "language_genre": "te | Action",
+            "release_date": "12 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Kotabommali-PS-20250414114920-5393.jpg"
+        },
+        {
+            "title": "One Last Time",
+            "type": "Movie",
+            "language_genre": "hi | Drama",
+            "release_date": "12 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/One-Last-Time-20250414114721-5391.jpg"
+        },
+        {
+            "title": "Sinjar",
+            "type": "Movie",
+            "language_genre": "ml | Drama",
+            "release_date": "12 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Sinjar-20250414115100-5394.jpg"
+        },
+        {
+            "title": "Bad Boyz",
+            "type": "Movie",
+            "language_genre": "ml | Action",
+            "release_date": "11 April 2025",
+            "ott_platform": "Manorama Max",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Before 30",
+            "type": "TV Show",
+            "language_genre": "en | Drama",
+            "release_date": "11 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Before-30-20250414115518-5382.jpg"
+        },
+        {
+            "title": "Chabak - Night of Murder and Romance",
+            "type": "Movie",
+            "language_genre": "ko | Horror",
+            "release_date": "11 April 2025",
+            "ott_platform": "Book My Show",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Chasing the Wind",
+            "type": "Movie",
+            "language_genre": "en | Romance",
+            "release_date": "11 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Chhaava",
+            "type": "Movie",
+            "language_genre": "Bollywood | Action",
+            "release_date": "11 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/chhaava-20250123094852-22199.jpg"
+        },
+        {
+            "title": "Chhorii 2",
+            "type": "Movie",
+            "language_genre": "Bollywood | Horror",
+            "release_date": "11 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/chhorii2-20250325151801-23617.jpg"
+        },
+        {
+            "title": "Crazxy",
+            "type": "Movie",
+            "language_genre": "Bollywood | Action",
+            "release_date": "11 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/crazxy-20250205124153-23469.jpg"
+        },
+        {
+            "title": "Daveed",
+            "type": "Movie",
+            "language_genre": "Malayalam | Action",
+            "release_date": "11 April 2025",
+            "ott_platform": "Zee5",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/daveed-20250101111317-1655.jpg"
+        },
+        {
+            "title": "Emmanuelle",
+            "type": "Movie",
+            "language_genre": "en | Romance",
+            "release_date": "11 April 2025",
+            "ott_platform": "Lionsgate Play",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Hacks Season 4",
+            "type": "TV Show",
+            "language_genre": "en | Comedy",
+            "release_date": "11 April 2025",
+            "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Hacks-Season-4-20250411121352-5360.jpg"
+        },
+        {
+            "title": "Hesitation Wound",
+            "type": "Movie",
+            "language_genre": "tr | Drama",
+            "release_date": "11 April 2025",
+            "ott_platform": "Book My Show",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "KA",
+            "type": "Movie",
+            "language_genre": "Telugu | Action",
+            "release_date": "11 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/ka-20240715142011-23041.jpg"
         }
     ]
 }
