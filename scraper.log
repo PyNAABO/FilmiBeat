@@ -69,3 +69,6 @@
 2025-04-14 12:33:22,985 [INFO] Parsed movie #20: KA
 2025-04-14 12:33:23,177 [INFO] 19 movies written to ott_releases.json
 2025-04-14 12:33:23,314 [INFO] filmibeat basket updated with 19 movies
+2025-04-14 13:27:21,622 [INFO] Starting scraper
+2025-04-14 13:27:22,666 [INFO] 0 movies written to ott_releases.json
+2025-04-14 13:27:22,978 [INFO] filmibeat basket updated with 0 movies
