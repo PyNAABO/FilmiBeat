@@ -1,5 +1,13 @@
 [
     {
+        "title": "The Last of Us Season 2",
+        "type": "TV Show",
+        "language_genre": "en | Drama",
+        "release_date": "14 April 2025",
+        "ott_platform": "Jio Hotstar",
+        "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+    },
+    {
         "title": "Dear Satyajit",
         "type": "Movie",
         "language_genre": "bn | Drama",
@@ -150,13 +158,5 @@
         "release_date": "11 April 2025",
         "ott_platform": "Amazon Prime Video",
         "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/ka-20240715142011-23041.jpg"
-    },
-    {
-        "title": "Love Unlike in K-Dramas",
-        "type": "Movie",
-        "language_genre": "id | Drama",
-        "release_date": "11 April 2025",
-        "ott_platform": "Netflix",
-        "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
     }
 ]
