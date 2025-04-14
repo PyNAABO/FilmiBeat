@@ -72,7 +72,7 @@ def get_pantry_movies():
             logging.warning(
                 f"Failed to fetch pantry contents: {res.status_code}")
             return []
-        return res.json()
+        return res.json()  # Should return a dictionary
     except Exception as err:
         logging.warning(f"Error fetching pantry data: {err}")
         return []
@@ -81,7 +81,9 @@ def get_pantry_movies():
 def overwrite_pantry(movies):
     url = f"https://getpantry.cloud/apiv1/pantry/{PANTRY_ID}/basket/{BASKET_NAME}"
     try:
-        res = requests.put(url, json=movies)
+        res = requests.put(url, json={
+            "Movies": movies
+        })  # Wrap the movies in a dictionary with "Movies" key
         if res.status_code != 200:
             logging.warning(f"PantryDB update failed: {res.status_code}")
         else:
@@ -122,17 +124,27 @@ for i, block in enumerate(soup.select("div.list-content")):
 
 # ====== GET PANTRY MOVIES ======
 pantry_movies = get_pantry_movies()
-pantry_titles = set(
-    movie.get("title") for movie in pantry_movies if movie.get("title"))
+
+# Check if 'Movies' key exists in the pantry data
+if isinstance(pantry_movies, dict) and 'Movies' in pantry_movies:
+    pantry_movies_list = pantry_movies['Movies']
+else:
+    pantry_movies_list = []
 
 # ====== ONLY ADD NEW MOVIES NOT IN PANTRY ======
+# First, collect all titles in pantry_movies_list for comparison
+pantry_titles = set(
+    movie.get("title") for movie in pantry_movies_list if movie.get("title"))
+
+# Filter out movies that are already in pantry_titles
 scraped_new = [
     movie for movie in scraped if movie.get("title") not in pantry_titles
 ]
 
 # ====== COMBINE AND DEDUPE ======
-# Only include pantry movies and new scraped ones not yet processed
-new_candidates = pantry_movies + scraped_new
+new_candidates = pantry_movies_list + scraped_new  # Now it's a list + list
+
+# Apply deduplication by title
 deduped = dedupe_by_title(new_candidates)
 final_movies = deduped[:MAX_MOVIES]
 
@@ -145,4 +157,5 @@ except Exception as e:
     logging.exception("Failed to write ott_releases.json")
     raise SystemExit(e)
 
+# Update pantryDB with the final list of movies
 overwrite_pantry(final_movies)
