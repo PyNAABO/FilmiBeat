@@ -179,3 +179,6 @@
 2025-04-14 22:15:20,805 [INFO] Parsed movie #20: Chabak - Night of Murder and Romance
 2025-04-14 22:15:21,153 [INFO] 19 movies written to ott_releases.json
 2025-04-14 22:15:21,551 [INFO] filmibeat basket updated with 19 movies
+2025-04-14 23:15:04,104 [INFO] Starting scraper
+2025-04-14 23:15:07,089 [INFO] 0 movies written to ott_releases.json
+2025-04-14 23:15:10,545 [INFO] filmibeat basket updated with 0 movies
