@@ -7,3 +7,7 @@
 2025-04-14 08:23:50,350 [INFO] HTML saved to response.html
 2025-04-14 08:23:50,615 [INFO] 2 movies saved to ott_releases.json
 2025-04-14 08:23:50,737 [INFO] PantryDB updated with 2 movies
+2025-04-14 08:44:54,448 [INFO] Starting scraper
+2025-04-14 08:44:54,614 [INFO] HTML saved to response.html
+2025-04-14 08:44:55,271 [INFO] 1 movies saved to ott_releases.json
+2025-04-14 08:44:55,509 [INFO] 'filmibeat' basket updated with 1 movies
