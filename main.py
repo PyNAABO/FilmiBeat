@@ -5,8 +5,9 @@ import logging
 import requests
 
 # ====== CONFIG ======
-PANTRY_ID = "ffbc82fc-3471-4eb5-80bd-cf7cc6887fe1"  # <- REPLACE THIS
-BASKET_NAME = "filmibeat"
+PANTRY_ID = "ffbc82fc-3471-4eb5-80bd-cf7cc6887fe1"
+FILMIBEAT_BASKET = "filmibeat"
+DONE_BASKET = "done"
 URL = "https://www.filmibeat.com/top-listing/ott-movie-releases-this-week/?filter_type=releases"
 OUTPUT_FILE = "ott_releases.json"
 MAX_MOVIES = 25  # Change this to however many movies you want to keep
@@ -40,7 +41,6 @@ def parse_movie_block(block):
     lang_genre_raw = get_text(
         block.select_one(".picture-detail p:nth-of-type(3)"))
     language, genres = parse_language_and_genre(lang_genre_raw)
-
     return {
         "title":
         get_text(block.select_one(".picture-detail p:nth-of-type(1)")),
@@ -64,32 +64,34 @@ def dedupe_by_title(movies):
     return unique
 
 
-def get_pantry_movies():
-    url = f"https://getpantry.cloud/apiv1/pantry/{PANTRY_ID}/basket/{BASKET_NAME}"
+def get_movies_from_basket(basket_name):
+    url = f"https://getpantry.cloud/apiv1/pantry/{PANTRY_ID}/basket/{basket_name}"
     try:
         res = requests.get(url)
         if res.status_code != 200:
             logging.warning(
-                f"Failed to fetch pantry contents: {res.status_code}")
+                f"Failed to fetch basket '{basket_name}': {res.status_code}")
             return []
-        return res.json()  # Should return a dictionary
+        data = res.json()
+        return data.get("Movies", [])
     except Exception as err:
-        logging.warning(f"Error fetching pantry data: {err}")
+        logging.warning(f"Error fetching '{basket_name}' basket: {err}")
         return []
 
 
-def overwrite_pantry(movies):
-    url = f"https://getpantry.cloud/apiv1/pantry/{PANTRY_ID}/basket/{BASKET_NAME}"
+def overwrite_basket(basket_name, movies):
+    url = f"https://getpantry.cloud/apiv1/pantry/{PANTRY_ID}/basket/{basket_name}"
     try:
-        res = requests.put(url, json={
-            "Movies": movies
-        })  # Wrap the movies in a dictionary with "Movies" key
+        res = requests.put(url, json={"Movies": movies})
         if res.status_code != 200:
-            logging.warning(f"PantryDB update failed: {res.status_code}")
+            logging.warning(
+                f"PantryDB update for '{basket_name}' failed: {res.status_code}"
+            )
         else:
-            logging.info(f"PantryDB updated with {len(movies)} movies")
+            logging.info(
+                f"'{basket_name}' basket updated with {len(movies)} movies")
     except Exception as err:
-        logging.warning(f"PantryDB error: {err}")
+        logging.warning(f"PantryDB error on '{basket_name}': {err}")
 
 
 # ====== SCRAPE HTML ======
@@ -122,40 +124,29 @@ for i, block in enumerate(soup.select("div.list-content")):
     except Exception as err:
         logging.warning(f"Failed to parse block #{i+1}: {err}")
 
-# ====== GET PANTRY MOVIES ======
-pantry_movies = get_pantry_movies()
+# ====== FILTER OUT MOVIES IN 'DONE' BASKET ======
+done_movies = get_movies_from_basket(DONE_BASKET)
+done_titles = set(
+    movie.get("title") for movie in done_movies if movie.get("title"))
 
-# Check if 'Movies' key exists in the pantry data
-if isinstance(pantry_movies, dict) and 'Movies' in pantry_movies:
-    pantry_movies_list = pantry_movies['Movies']
-else:
-    pantry_movies_list = []
+filtered_scraped = [m for m in scraped if m.get("title") not in done_titles]
 
-# ====== ONLY ADD NEW MOVIES NOT IN PANTRY ======
-# First, collect all titles in pantry_movies_list for comparison
-pantry_titles = set(
-    movie.get("title") for movie in pantry_movies_list if movie.get("title"))
+# ====== GET CURRENT 'FILMIBEAT' MOVIES ======
+filmibeat_movies = get_movies_from_basket(FILMIBEAT_BASKET)
 
-# Filter out movies that are already in pantry_titles
-scraped_new = [
-    movie for movie in scraped if movie.get("title") not in pantry_titles
-]
-
-# ====== COMBINE AND DEDUPE ======
-new_candidates = pantry_movies_list + scraped_new  # Now it's a list + list
-
-# Apply deduplication by title
-deduped = dedupe_by_title(new_candidates)
+# ====== COMBINE NEW SCRAPED AND EXISTING FILMIBEAT MOVIES ======
+combined = filtered_scraped + filmibeat_movies
+deduped = dedupe_by_title(combined)
 final_movies = deduped[:MAX_MOVIES]
 
-# ====== SAVE TO JSON & PANTRY ======
+# ====== SAVE TO JSON ======
 try:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_movies, f, indent=4, ensure_ascii=False)
+        json.dump({"Movies": final_movies}, f, indent=4, ensure_ascii=False)
     logging.info(f"{len(final_movies)} movies saved to {OUTPUT_FILE}")
 except Exception as e:
     logging.exception("Failed to write ott_releases.json")
     raise SystemExit(e)
 
-# Update pantryDB with the final list of movies
-overwrite_pantry(final_movies)
+# ====== UPDATE PANTRY BASKET ======
+overwrite_basket(FILMIBEAT_BASKET, final_movies)
