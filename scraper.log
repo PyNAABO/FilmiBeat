@@ -110,3 +110,26 @@
 2025-04-14 19:13:16,210 [INFO] Starting scraper
 2025-04-14 19:13:16,868 [INFO] 0 movies written to ott_releases.json
 2025-04-14 19:13:17,203 [INFO] filmibeat basket updated with 0 movies
+2025-04-14 20:18:07,272 [INFO] Starting scraper
+2025-04-14 20:18:07,513 [INFO] Parsed movie #1: Chaityabhumi
+2025-04-14 20:18:07,514 [INFO] Parsed movie #2: Dasettante Cycle
+2025-04-14 20:18:07,515 [INFO] Parsed movie #3: Dr. B.R. Ambedkar: Now & Then
+2025-04-14 20:18:07,516 [INFO] Parsed movie #4: Gaami
+2025-04-14 20:18:07,517 [INFO] Parsed movie #5: Gentlewoman
+2025-04-14 20:18:07,518 [INFO] Parsed movie #6: Kingston
+2025-04-14 20:18:07,519 [INFO] Parsed movie #7: Manamey
+2025-04-14 20:18:07,520 [INFO] Parsed movie #8: The Indian EdTech Story Season 2
+2025-04-14 20:18:07,520 [INFO] Parsed movie #9: The Last of Us Season 2
+2025-04-14 20:18:07,521 [INFO] Parsed movie #10: The Tattooist’s Son: Journey to Auschwitz
+2025-04-14 20:18:07,522 [INFO] Parsed movie #11: Dear Satyajit
+2025-04-14 20:18:07,523 [INFO] Parsed movie #12: Doctor Who Season 2
+2025-04-14 20:18:07,524 [INFO] Parsed movie #13: Jane the Virgin
+2025-04-14 20:18:07,525 [INFO] Parsed movie #14: Koli Taal
+2025-04-14 20:18:07,526 [INFO] Parsed movie #15: Kotabommali PS
+2025-04-14 20:18:07,527 [INFO] Parsed movie #16: One Last Time
+2025-04-14 20:18:07,528 [INFO] Parsed movie #17: Sinjar
+2025-04-14 20:18:07,529 [INFO] Parsed movie #18: Bad Boyz
+2025-04-14 20:18:07,530 [INFO] Parsed movie #19: Before 30
+2025-04-14 20:18:07,531 [INFO] Parsed movie #20: Chabak - Night of Murder and Romance
+2025-04-14 20:18:07,734 [INFO] 19 movies written to ott_releases.json
+2025-04-14 20:18:08,080 [INFO] filmibeat basket updated with 19 movies
