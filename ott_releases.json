@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "title": "Dear Satyajit",
+        "type": "Movie",
+        "language_genre": "bn | Drama",
+        "release_date": "12 April 2025",
+        "ott_platform": "Amazon Prime Video",
+        "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+    },
+    {
+        "title": "Doctor Who Season 2",
+        "type": "TV Show",
+        "language_genre": "en | Drama",
+        "release_date": "12 April 2025",
+        "ott_platform": "Jio Hotstar",
+        "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+    }
+]

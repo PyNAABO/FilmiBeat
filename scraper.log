@@ -3,3 +3,7 @@
 2025-04-14 08:04:59,350 [WARNING] Failed to fetch pantry contents: 400
 2025-04-14 08:04:59,351 [INFO] 0 movies saved to ott_releases.json
 2025-04-14 08:04:59,471 [WARNING] PantryDB update failed: 400
+2025-04-14 08:23:50,229 [INFO] Starting scraper
+2025-04-14 08:23:50,350 [INFO] HTML saved to response.html
+2025-04-14 08:23:50,615 [INFO] 2 movies saved to ott_releases.json
+2025-04-14 08:23:50,737 [INFO] PantryDB updated with 2 movies
