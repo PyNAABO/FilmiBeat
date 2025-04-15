@@ -208,3 +208,26 @@
 2025-04-15 03:02:53,251 [INFO] Starting scraper
 2025-04-15 03:02:54,076 [INFO] 0 movies written to ott_releases.json
 2025-04-15 03:02:54,237 [INFO] filmibeat basket updated with 0 movies
+2025-04-15 04:19:35,626 [INFO] Starting scraper
+2025-04-15 04:19:35,841 [INFO] Parsed movie #1: Blade of the Immortal
+2025-04-15 04:19:35,842 [INFO] Parsed movie #2: Chaityabhumi
+2025-04-15 04:19:35,843 [INFO] Parsed movie #3: Crime Patrol: 26 Jurm, 26 Cases
+2025-04-15 04:19:35,844 [INFO] Parsed movie #4: Dasettante Cycle
+2025-04-15 04:19:35,844 [INFO] Parsed movie #5: Dr. B.R. Ambedkar: Now & Then
+2025-04-15 04:19:35,845 [INFO] Parsed movie #6: Gaami
+2025-04-15 04:19:35,846 [INFO] Parsed movie #7: Gentlewoman
+2025-04-15 04:19:35,847 [INFO] Parsed movie #8: Have A Nice Day
+2025-04-15 04:19:35,848 [INFO] Parsed movie #9: Kingston
+2025-04-15 04:19:35,849 [INFO] Parsed movie #10: Manamey
+2025-04-15 04:19:35,850 [INFO] Parsed movie #11: My Girlfriend is an Alien Season 2
+2025-04-15 04:19:35,851 [INFO] Parsed movie #12: Swadkahon
+2025-04-15 04:19:35,852 [INFO] Parsed movie #13: The Indian EdTech Story Season 2
+2025-04-15 04:19:35,853 [INFO] Parsed movie #14: The Last of Us Season 2
+2025-04-15 04:19:35,854 [INFO] Parsed movie #15: The Tattooist’s Son: Journey to Auschwitz
+2025-04-15 04:19:35,855 [INFO] Parsed movie #16: Umbarro
+2025-04-15 04:19:35,856 [INFO] Parsed movie #17: Dear Satyajit
+2025-04-15 04:19:35,857 [INFO] Parsed movie #18: Doctor Who Season 2
+2025-04-15 04:19:35,857 [INFO] Parsed movie #19: Jane the Virgin
+2025-04-15 04:19:35,858 [INFO] Parsed movie #20: Koli Taal
+2025-04-15 04:19:36,039 [INFO] 20 movies written to ott_releases.json
+2025-04-15 04:19:36,234 [INFO] filmibeat basket updated with 20 movies
