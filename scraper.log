@@ -395,3 +395,6 @@
 2025-04-15 12:32:58,719 [INFO] Parsed movie #20: Koli Taal
 2025-04-15 12:32:59,028 [INFO] 20 movies written to ott_releases.json
 2025-04-15 12:32:59,460 [INFO] filmibeat basket updated with 20 movies
+2025-04-15 13:26:43,199 [INFO] Starting scraper
+2025-04-15 13:26:43,966 [INFO] 0 movies written to ott_releases.json
+2025-04-15 13:26:44,414 [INFO] filmibeat basket updated with 0 movies
