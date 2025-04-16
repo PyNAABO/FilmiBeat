@@ -828,3 +828,6 @@
 2025-04-16 21:15:41,534 [INFO] Parsed movie #20: The Handmaid's Tale Season 6
 2025-04-16 21:15:41,680 [INFO] 20 movies written to ott_releases.json
 2025-04-16 21:15:41,943 [INFO] filmibeat basket updated with 20 movies
+2025-04-16 22:15:12,607 [INFO] Starting scraper
+2025-04-16 22:15:13,563 [INFO] 0 movies written to ott_releases.json
+2025-04-16 22:15:14,098 [INFO] filmibeat basket updated with 0 movies
