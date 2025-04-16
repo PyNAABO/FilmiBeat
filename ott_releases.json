@@ -1,6 +1,30 @@
 {
     "Movies": [
         {
+            "title": "Baby Mama",
+            "type": "Movie",
+            "language_genre": "Hollywood | Comedy",
+            "release_date": "16 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/baby-mama-4664.jpg"
+        },
+        {
+            "title": "I Am Not Mendoza",
+            "type": "TV Show",
+            "language_genre": "es | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Project UFO",
+            "type": "TV Show",
+            "language_genre": "pl | Comedy",
+            "release_date": "16 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "The Stolen Girl",
             "type": "TV Show",
             "language_genre": "en | Drama",
@@ -33,12 +57,28 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/caseofkondana-20240102155722-22483.jpg"
         },
         {
+            "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+            "type": "TV Show",
+            "language_genre": "ja | Animation",
+            "release_date": "15 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "Dohchay",
             "type": "Movie",
             "language_genre": "Telugu | Action",
             "release_date": "15 April 2025",
             "ott_platform": "Amazon Prime Video",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/dohchay-20150217152347-14220.jpg"
+        },
+        {
+            "title": "In Fidelity",
+            "type": "Movie",
+            "language_genre": "en | Comedy",
+            "release_date": "15 April 2025",
+            "ott_platform": "YouTube",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
             "title": "Jules",
@@ -63,6 +103,22 @@
             "release_date": "15 April 2025",
             "ott_platform": "Book My Show",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/lakadbaggha-20221222183956-21171.jpg"
+        },
+        {
+            "title": "Murder Ballads: How to Make It in Rock 'n' Roll",
+            "type": "Movie",
+            "language_genre": "en | Comedy",
+            "release_date": "15 April 2025",
+            "ott_platform": "YouTube",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Re:Monster",
+            "type": "TV Show",
+            "language_genre": "ja | Animation",
+            "release_date": "15 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
             "title": "The Glass Dome",
@@ -103,62 +159,6 @@
             "release_date": "15 April 2025",
             "ott_platform": "Netflix",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Yamakaathaghi",
-            "type": "Movie",
-            "language_genre": "Tamil | Drama",
-            "release_date": "15 April 2025",
-            "ott_platform": "Aha Video",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/yamakaathaghi-20250224091733-23546.jpg"
-        },
-        {
-            "title": "Blade of the Immortal",
-            "type": "TV Show",
-            "language_genre": "ja | Animation",
-            "release_date": "14 April 2025",
-            "ott_platform": "Amazon Prime Video",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Blade-of-the-Immortal-20250415121218-5414.jpg"
-        },
-        {
-            "title": "Chaityabhumi",
-            "type": "Movie",
-            "language_genre": "en | Documentary",
-            "release_date": "14 April 2025",
-            "ott_platform": "Mubi",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Chaityabhumi-20250415120341-5404.jpg"
-        },
-        {
-            "title": "Crime Patrol: 26 Jurm, 26 Cases",
-            "type": "TV Show",
-            "language_genre": "hi | Crime",
-            "release_date": "14 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Crime-Patrol-26-Jurm-26-Cases-20250415121259-5415.jpg"
-        },
-        {
-            "title": "Dasettante Cycle",
-            "type": "Movie",
-            "language_genre": "Malayalam | Drama",
-            "release_date": "14 April 2025",
-            "ott_platform": "Manorama Max",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/dasettantecycle-20230423221219-21320.jpg"
-        },
-        {
-            "title": "Dr. B.R. Ambedkar: Now & Then",
-            "type": "Movie",
-            "language_genre": "hi | Documentary",
-            "release_date": "14 April 2025",
-            "ott_platform": "Mubi",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/Dr-BR-Ambedkar-Now--Then-20250415120507-5405.jpg"
-        },
-        {
-            "title": "Gaami",
-            "type": "Movie",
-            "language_genre": "Telugu | Adventure",
-            "release_date": "14 April 2025",
-            "ott_platform": "Jio Hotstar",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/gaami-20240213110152-22588.jpg"
         }
     ]
 }
