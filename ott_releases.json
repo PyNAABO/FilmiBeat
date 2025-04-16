@@ -9,6 +9,14 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/baby-mama-4664.jpg"
         },
         {
+            "title": "Government Cheese",
+            "type": "TV Show",
+            "language_genre": "en | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "Apple TV Plus",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "I Am Not Mendoza",
             "type": "TV Show",
             "language_genre": "es | Drama",
@@ -17,11 +25,27 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
+            "title": "Mangya",
+            "type": "Movie",
+            "language_genre": "mr | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "YouTube",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "Project UFO",
             "type": "TV Show",
             "language_genre": "pl | Comedy",
             "release_date": "16 April 2025",
             "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Seeing Red",
+            "type": "Short Film",
+            "language_genre": "ta | Horror",
+            "release_date": "16 April 2025",
+            "ott_platform": "YouTube",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
@@ -134,30 +158,6 @@
             "language_genre": "en | Drama",
             "release_date": "15 April 2025",
             "ott_platform": "Amazon Prime Video",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "The Last Stop in Yuma County",
-            "type": "Movie",
-            "language_genre": "en | Crime",
-            "release_date": "15 April 2025",
-            "ott_platform": "Amazon Prime Video",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "The Passion of the Christ",
-            "type": "Movie",
-            "language_genre": "he | Drama",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Tim Dillon: I'm Your Mother",
-            "type": "Movie",
-            "language_genre": "en | Comedy",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         }
     ]
