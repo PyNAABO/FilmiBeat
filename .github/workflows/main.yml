@@ -1,8 +1,8 @@
 name: Scrape
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 * * * *'  # Runs at minute 0 of every hour
+  # schedule:
+  #   - cron: '0 * * * *'  # Runs at minute 0 of every hour
 jobs:
   scrape:
     runs-on: ubuntu-latest
