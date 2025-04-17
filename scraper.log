@@ -923,3 +923,6 @@
 2025-04-17 04:19:37,931 [INFO] Parsed movie #20: Behind the Curtain: Stranger Things: The First Shadow
 2025-04-17 04:19:38,123 [INFO] 20 movies written to ott_releases.json
 2025-04-17 04:19:38,492 [INFO] filmibeat basket updated with 20 movies
+2025-04-17 05:16:12,062 [INFO] Starting scraper
+2025-04-17 05:16:12,670 [INFO] 0 movies written to ott_releases.json
+2025-04-17 05:16:13,301 [INFO] filmibeat basket updated with 0 movies
