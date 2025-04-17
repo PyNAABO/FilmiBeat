@@ -1,12 +1,44 @@
 {
     "Movies": [
         {
+            "title": "Istanbul Encyclopedia",
+            "type": "TV Show",
+            "language_genre": "tr | Drama",
+            "release_date": "17 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Ransom Canyon",
+            "type": "TV Show",
+            "language_genre": "en | Drama",
+            "release_date": "17 April 2025",
+            "ott_platform": "Netflix",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Agrico's (Anaganaga Oka Raithu)",
+            "type": "Movie",
+            "language_genre": "te | Family",
+            "release_date": "16 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "Baby Mama",
             "type": "Movie",
             "language_genre": "Hollywood | Comedy",
             "release_date": "16 April 2025",
             "ott_platform": "Netflix",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/baby-mama-4664.jpg"
+        },
+        {
+            "title": "Dying for Sex",
+            "type": "TV Show",
+            "language_genre": "en | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
             "title": "Government Cheese",
@@ -25,11 +57,43 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
+            "title": "Kovarty",
+            "type": "Movie",
+            "language_genre": "ml | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "YouTube",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Mama Drama",
+            "type": "TV Show",
+            "language_genre": "es | Comedy",
+            "release_date": "16 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "Mangya",
             "type": "Movie",
             "language_genre": "mr | Drama",
             "release_date": "16 April 2025",
             "ott_platform": "YouTube",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Nenu Keerthana",
+            "type": "Movie",
+            "language_genre": "te | Horror",
+            "release_date": "16 April 2025",
+            "ott_platform": "Amazon Prime Video",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Pabar",
+            "type": "Movie",
+            "language_genre": "or | Comedy",
+            "release_date": "16 April 2025",
+            "ott_platform": "Other",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
@@ -41,6 +105,14 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
+            "title": "Satya: The Truth",
+            "type": "Movie",
+            "language_genre": "as | Drama",
+            "release_date": "16 April 2025",
+            "ott_platform": "Other",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "Seeing Red",
             "type": "Short Film",
             "language_genre": "ta | Horror",
@@ -49,11 +121,27 @@
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
+            "title": "The Dark Money Game",
+            "type": "TV Show",
+            "language_genre": "en | Documentary",
+            "release_date": "16 April 2025",
+            "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
             "title": "The Stolen Girl",
             "type": "TV Show",
             "language_genre": "en | Drama",
             "release_date": "16 April 2025",
             "ott_platform": "Jio Hotstar",
+            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
+        },
+        {
+            "title": "Tinctoria",
+            "type": "Movie",
+            "language_genre": "hi | Family",
+            "release_date": "16 April 2025",
+            "ott_platform": "YouTube",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         },
         {
@@ -70,94 +158,6 @@
             "language_genre": "en | Documentary",
             "release_date": "15 April 2025",
             "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Case of Kondana",
-            "type": "Movie",
-            "language_genre": "Kannada | Action",
-            "release_date": "15 April 2025",
-            "ott_platform": "Jio Hotstar",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/caseofkondana-20240102155722-22483.jpg"
-        },
-        {
-            "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
-            "type": "TV Show",
-            "language_genre": "ja | Animation",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Dohchay",
-            "type": "Movie",
-            "language_genre": "Telugu | Action",
-            "release_date": "15 April 2025",
-            "ott_platform": "Amazon Prime Video",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/dohchay-20150217152347-14220.jpg"
-        },
-        {
-            "title": "In Fidelity",
-            "type": "Movie",
-            "language_genre": "en | Comedy",
-            "release_date": "15 April 2025",
-            "ott_platform": "YouTube",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Jules",
-            "type": "Movie",
-            "language_genre": "en | Comedy",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Kaadhal Enbadhu Podhu Udamai",
-            "type": "Movie",
-            "language_genre": "Tamil | Drama",
-            "release_date": "15 April 2025",
-            "ott_platform": "Sun NXT",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/kaadhalenbadhupodhuudamai-20230214160612-21591.jpg"
-        },
-        {
-            "title": "Lakadbaggha",
-            "type": "Movie",
-            "language_genre": "Bollywood | Action",
-            "release_date": "15 April 2025",
-            "ott_platform": "Book My Show",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/lakadbaggha-20221222183956-21171.jpg"
-        },
-        {
-            "title": "Murder Ballads: How to Make It in Rock 'n' Roll",
-            "type": "Movie",
-            "language_genre": "en | Comedy",
-            "release_date": "15 April 2025",
-            "ott_platform": "YouTube",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "Re:Monster",
-            "type": "TV Show",
-            "language_genre": "ja | Animation",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "The Glass Dome",
-            "type": "TV Show",
-            "language_genre": "sv | Drama",
-            "release_date": "15 April 2025",
-            "ott_platform": "Netflix",
-            "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
-        },
-        {
-            "title": "The Handmaid's Tale Season 6",
-            "type": "TV Show",
-            "language_genre": "en | Drama",
-            "release_date": "15 April 2025",
-            "ott_platform": "Amazon Prime Video",
             "poster_url": "https://images.filmibeat.com/webp/img/popcorn/movie_posters/noimage.jpg"
         }
     ]
